@@ -1,0 +1,12 @@
+<div class="loading" *ngIf="loading$ | async">
+  <div class="spinner"></div>
+</div>
+
+<section class="products animeLeft" *ngIf="!(loading$ | async)">
+  <div *ngFor="let product of products$ | async">
+    <a routerLink="/products/{{ product.id }}">
+      <img [src]="product.fotos[0].src" [alt]="product.fotos[0].titulo" />
+    </a>
+    <h1 class="name">{{ product.nome }}</h1>
+  </div>
+</section>

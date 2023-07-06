@@ -1,0 +1,15 @@
+@import "src/styles/variables.scss";
+
+.footer {
+  text-align: center;
+  font-size: 1.1rem;
+  color: $primary-gray;
+  height: 2rem;
+  padding: 1rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  box-sizing: border-box;
+  p {
+    padding-bottom: 1rem;
+  }
+}

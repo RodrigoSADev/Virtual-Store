@@ -1,10 +1,23 @@
-import { Component } from '@angular/core';
+import { Component, HostListener, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
-  styleUrls: ['./app.component.scss']
+  styleUrls: ['./app.component.scss'],
 })
-export class AppComponent {
-  title = 'virtual-store';
+export class AppComponent implements OnInit {
+  useClass = true;
+
+  ngOnInit() {
+    this.updateContainerVisibility();
+  }
+
+  @HostListener('window:resize')
+  onWindowResize() {
+    this.updateContainerVisibility();
+  }
+
+  updateContainerVisibility() {
+    this.useClass = window.innerWidth >= 768;
+  }
 }
