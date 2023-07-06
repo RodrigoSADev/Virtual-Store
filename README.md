@@ -1,27 +1,58 @@
-# VirtualStore
+# Loja Virtual
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.0.2.
+É um projeto de um site para uma Loja de Eletrônicos fictícia desenvolvido por mim durante o curso de React da [Origamid](https://www.origamid.com) adaptando para o Angular. Realizei algumas melhorias no projeto com objetivo de me desafiar e criar um projeto mais robusto, as melhorias foram: 
 
-## Development server
+- Projeto totalmente recriado em Angular e TypeScript
+- Adição da biblioteca NgRx para gerenciamento de estado da aplicação
+- Criação de botão de compra dos produtos
+- Área de pagamento com Formulário Validado
+- Mensagem de conclusão de compra
+- Adição do Boostrap e Sass para estilos do projeto
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Tecnologias
 
-## Code scaffolding
+- Angular
+- TypeScript
+- NgRx
+- SCSS
+- Bootstrap
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Projeto Completo (Web)
 
-## Build
+![Loja Virtual 01](https://user-images.githubusercontent.com/97991094/186285320-5b465547-df5f-4177-9e03-889f62f23218.gif)
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+![Loja Virtual 02](https://user-images.githubusercontent.com/97991094/186285710-79a54f6d-77e5-437b-a6c7-5d4800412bee.gif)
 
-## Running unit tests
+## Projeto Completo (Mobile)
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Projeto 100% responsivo apenas quebrando grid.
 
-## Running end-to-end tests
+![Loja Virtual 03](https://user-images.githubusercontent.com/97991094/186286015-542fcc01-7ef0-4f07-85d0-86552030a502.gif)
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+![Loja Virtual 04](https://user-images.githubusercontent.com/97991094/186286039-e88d5568-6830-45c9-bf7a-e8082a8de823.gif)
 
-## Further help
+# Como rodar o projeto na sua máquina
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## Pré-requisitos
+Antes de começar, certifique-se de ter as seguintes ferramentas instaladas em sua máquina:
+
+- Node.js (versão 12 ou superior)
+- Angular CLI (versão 12 ou superior)
+
+## Configuração do projeto
+Siga os passos abaixo para configurar o projeto em sua máquina:
+
+Clone o repositório para o seu ambiente local:
+`git clone https://github.com/RodrigoS2050/Serenatto.git`
+
+Navegue até o diretório do projeto:
+`cd nome-do-repositorio`
+
+Instale as dependências do projeto:
+`npm install`
+
+## Executando o projeto
+Após a configuração, você pode executar o projeto localmente. Utilize o seguinte comando:
+`ng serve`
+
+A aplicação estará disponível em http://localhost:4200/. A página será recarregada automaticamente sempre que houver alterações no código.
