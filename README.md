@@ -13,10 +13,10 @@
 
 - Angular
 - TypeScript
+- Bootstrap
+- SCSS
 - NgRx
 - RxJS
-- SCSS
-- Bootstrap
 
 ## Projeto Completo (Web)
 
