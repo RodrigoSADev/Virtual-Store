@@ -15,8 +15,8 @@
 - TypeScript
 - Bootstrap
 - Sass
-- NgRx
 - RxJS
+- NgRx
 
 ## Projeto Completo (Web)
 
