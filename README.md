@@ -14,7 +14,7 @@
 - Angular
 - TypeScript
 - Bootstrap
-- SCSS
+- Sass
 - NgRx
 - RxJS
 
